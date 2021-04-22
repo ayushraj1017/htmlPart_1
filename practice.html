@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>This is my first HTML</title>
+        
+    </head>
+    <!--Comment here-->
+    
+    <body>
+        
+        <h1>Click to send mail</h1>
+        <a href="https://www.google.com/" target="_blank" hreflang="en" > <img src="google.png"  alt="google" width="75" height="75" ></a>
+
+
+        <!--abbreviation tag-->
+        <p>I am having <abbr title="Fear of missing out">FOMO</abbr></p>
+        
+        
+        
+        
+        <!--Address tag-->
+        <address>
+            Raj Industries:<br>
+            ayush.com<br>
+            Box 985,Wonderland<br>
+            Ireland
+        </address>
+        <br>
+       
+        <br>
+        <br>
+        <br>
+        <!--Image source-->
+        <img src="pubg.jpg" width="400" height="200">
+
+        <br>
+                <br>
+                <br>
+        
+        <!--Defination list-->
+        <p>These three elements are used for lists</p>
+        <dl>
+            <dt>Coffee</dt>
+                <dd>Black hot drink</dd>
+            <dt>Milk</dt>
+                <dd>White cold Drink</dd>
+        </dl>
+        <!--Div Tag or Container or Section-->
+
+        <div class="MyDiv">
+            <h2>This is the heading of div</h2>
+            <p>This is some test in a div</p>
+        </div>
+        <br>
+                <br>
+                <br>
+        
+        <!--Header Tag-->
+        <header class="header">
+            <h2>My Practice Work</h2>
+        </header>
+       
+       
+        <!--Footer Tag-->
+        <footer>
+            <p>Author:Charles</p>
+        </footer>
+        
+        <br>
+                <br>
+                <br>
+        <!--Article Tag && Section Tag-->
+        <section>
+            <h2>Google Chrome</h2>
+            <p>Google Chrome is a web browser developed by Google, <ins>released in 2008.</ins> Chrome is the world's most popular web browser today!</p>
+        </section>
+            
+            <section>
+            <h2>Mozilla Firefox</h2>
+            <p>Mozilla Firefox is an open-source web browser developed by <kbd>Mozilla.</kbd> Firefox has been the second most popular web browser since January, 2018.</p>
+            </section>
+            
+            <article>
+            <h2>Microsoft Edge</h2>
+            <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+            </article>
+            <br>
+            <br>
+            <br>
+            <!--Navigation Tag -ordered list -unorderd list-->
+
+            <nav>
+                <ol>
+                <li><a href="01_Email and Commercial Correspondence.pdf" target="_blank"> How to wrie Email</a></li>
+            <li> <a href="Angular_Learning_Plan_13Jan_2021.pdf"> Weekly plans</a></li>
+                </ol>
+                <ul>
+              <li> <a href="google.png"> Google Logo</a></li> 
+              <li> <a href="pubg.jpg"> PUBG</a></li>
+                </ul> 
+            </nav>
+
+            <!--The Figure and Figure Caption Tag && cite Tag-->
+        <figure>
+                <img src="smog.jpg" alt="London Smog" width="400" height="250">
+                <figcaption>Fig 1. <cite>The Great Smog</cite> Of 1952.</figcaption>
+        </figure>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!--Aside Tag && Code tag && del Tag && dfn Tag-->
+        <p>My family and I visited The Epcot center this <del>summer.</del>  <code>The weather was nice</code>, and Epcot was amazing! I had a great summer together with my family!</p>
+        <aside>
+            <h4>Epcot Center</h4>
+<p><b>Epcot</b> is a theme park at Walt Disney World <dfn>Resort featuring</dfn> exciting attractions, <i>international pavilions</i>, <hr>award-winning fireworks and seasonal special events.</p>
+
+        </aside>
+        <br>
+                <br>
+                <br>
+        <!--Audio Tag-->
+        <h2>Click Below to play song</h2>
+
+        <audio controls>
+            <source src="sawan.mp3" type="audio/mp3">
+        </audio>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!--Button Tag && hr tag-->
+        <button class=button>Click To <hr>Download Above Song!</button>
+        <br>
+        <br>
+        <br>
+        <!--Canvas Tag-->
+        <h1>The canvas element</h1>
+
+<canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+<script src="script.js"></script>
+<br>
+                <br>
+                <br>
+        <!--Data List-->
+        <h1>The datalist element</h1>
+
+
+  <label for="browser">Choose your browser from the list:</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+<br>
+                <br>
+                <br>
+
+<!--Dailouge BOX Tag && Emphasized-->
+<div>
+
+                
+
+<dialog open class="box" ><em>Hello</em> Mr. DJ</dialog>
+<br>
+</div>
+<br>
+                <br>
+                <br>
+<!--HTML <embed> Tag  The <embed> tag defines a container for an external resource, such as a web page, a picture, a media player, or a plug-in application.-->
+    <div>
+        
+    <embed type="image/jpg" src="google.png" width="300" height="200">
+        <embed type="text/html" src="practice.html" width="500" height="200">
+            <embed type="video/mp4" src="Sad Background Music - No Copyright - Free To Use - YouTube (720p).mp4" width="200" height="200">
+        </div>
+        <br>
+        <br>
+        <br>
+        <!--Fieldset && Legends && label && input-->
+        <h1>The Field Set Element</h1>
+        <fieldset>
+            <legend> Movie Details</legend>
+            <p>Name:</p>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        <!--forms-->
+        <br>
+        <br>
+        <br>
+        <form>
+            <h1>Movie</h1>
+            
+            <label for="movietitle">Movie Name</label>
+            <input type="text" id="movietitle">
+            <input type="submit" value="Click To Watch">
+        </form>
+        <br>
+        <br>
+        <br>
+        <!--iFrame Tag-->
+
+        <h2>The iframe element</h2>
+        <iframe src="file:///C:/Users/asus/Desktop/Crownstack/practice.html" title="My Project">
+        </iframe>
+        <br>
+        <br>
+        <br>
+        <!--Input type Tag-->
+        <label for="Color">E-mail</label>
+        <input type="color" name="email" id="electronic_mail"> 
+        <br>
+        <br>
+        <br>
+        <!--Main Tag-->
+        <main>
+            <h1>Most Popular Browsers</h1>
+            <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+          
+            <article>
+              <h2>Google Chrome</h2>
+              <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+            </article>
+          
+            <article>
+              <h2>Mozilla Firefox</h2>
+              <p><pre>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</pre></p>
+            </article>
+          
+            <article>
+              <h2>Microsoft Edge</h2>
+              <p>Microsoft Edge is a <s> web browser developed </s>by <mark>Microsoft</mark>, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+            </article>
+          </main>
+          <br>
+          <br>
+          <br>
+
+          <!--Map Tag-->
+
+          <h2>CLick on the photo to reached to the next photo</h2>
+
+          <img src="smog.jpg" alt="london smog" usemap="#smogmap" width="400px" height="400px">
+
+          <map name="smogmap">
+              <area shape="rect" coords="20,20,400,400" alt="bulb" href="yellow-light.jpg">
+          </map>
+          <br>
+          <br>
+          <br>
+          <!--Meter Tag-->
+          <label for ="disk_c">Local Disk C : </label>
+          <meter id="disk_c" value="5" min="0" max="10"></meter>
+          <br>
+          <br>
+          <br>
+          <!--Object tag it defines the container for an external resource-->
+          
+          <object data="Sad Background Music - No Copyright - Free To Use - YouTube (720p).mp4" 
+          width="200px" height="200px">
+          <param name="autoplay" value="true">
+        </object>
+          <br>
+          <br>
+          <br>
+          <br>
+          <!--Option && optgroup-->
+          <label for="cars">Choose a car:</label>
+          <select name="cars" id="cars">
+              <optgroup label="English Movie">
+                  <option value="Inception">Inception</option>
+                  <option value="Momento">Momento</option>
+              </optgroup>
+              <optgroup label="Hindi Movies">
+                  <option value="Race">Race</option>
+                  <option value="Dhoom">Dhoom</option>
+              </optgroup>
+          </select>
+          <br>
+                <br>
+                <br>
+
+          <!--picture --REsize the browser to get different image-->
+
+          <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_picture" target="_blank"><mark>CLick me to see different flower on resizing the browser</mark></a>
+
+                <br>
+                <br>
+                <br>
+
+                <label for="file"><q>Download Files:</q></label>
+                <progress id="file" value="45" max="100">45%</progress>
+                <br>
+                <br>
+                <br>
+
+                <!--SPAN-->
+                <p>HEllO <sub>Subscript</sub> & <sup>SuperScript</sup>  I AM <strong>SPAN </strong><span style="color: yellowgreen;">yellowgreen</span></p>
+                <br>
+                <br>
+                <br>
+
+                <!--Summary tag or dropdown-->
+                <details>
+                    <summary>My Biography</summary>
+                    <p>My name is Asus Laptop.This is a dropDown menu</p>
+                </details>
+
+
+                <br>
+                <br>
+                <br>
+                <!--Video Tag-->
+
+                <video width="320" height="240" controls>
+                    <source src="Sad Background Music - No Copyright - Free To Use - YouTube (720p).mp4" type="video/mp4">
+                </video>
+                <br>
+                <br>
+                <br>
+
+                <!--Color-->
+                <!--Red,Green,Blue-->
+                <!--Hexadecimal value-->
+                <!--hue,saturation,lightess-->
+
+                <h1 style="background-color:DodgerBlue;">Hello World</h1>
+                <h1 style="background-color:rgb(100, 150, 200);">rgb(0, 100, 150)</h1>
+                <h1 style="background-color:#582145;">#ff1582</h1>
+                <h1 style="background-color:hsl(100, 100%, 50%);">hsl(100, 10%, 50%)</h1>
+
+
+                <!--Three ways to insert image-->
+                <div style="background-image: url('img_girl.jpg');"></div>
+                <img src="stars.jpg" alt="stars" width="200px" height="200px">
+                <!--<picture>
+                    <source media="(min-width: 650px)" srcset="stars.jpg">
+                    <source media="(min-width: 465px)" srcset="img_car.jpg">
+                    <img src="img_girl.jpg">
+                  </picture> -->
+
+                  <!--create table elements-->
+                  <table>
+                      <tr><!--first row-->
+                          <th>Movies Name</th>
+                          <th>Director</th>
+                          <th>Release year</th>
+                      </tr>
+                      <tr><!--Second Row-->
+                          <th>Inception</th>
+                          <th>Christopher nolen</th>
+                          <th>2008</th>
+                      </tr>
+                      <tr><!--Third Row-->
+                          <th>Hangover</th>
+                          <th>tod philips</th>
+                          <th>2009</th>
+                      </tr>
+                  </table>
+
+
+
+
+
+    
+
+    </body>
+
+
+</html>
